@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #blabla {
   text-shadow: 2px 2px 7px darkgray;
   border: 2px dashed darkblue;
@@ -5,6 +11,18 @@
 
 .dashed-border {
   border: 2px dashed darkblue;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
 }
 
 body {

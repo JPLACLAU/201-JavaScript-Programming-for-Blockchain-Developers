@@ -1,11 +1,21 @@
-body {
-  background-color: beige;
+.blabla {
+  text-shadow: 2px 2px 7px darkgray;
+}
+
+#blabla {
+  text-shadow: 2px 2px 7px darkgray;
 }
 
 .first-paragraph {
   border: 2px dashed darkblue;
 }
 
-.blabla {
-  text-shadow: 2px 2px 7px darkgray;
+body {
+  background-color: beige;
+}
+
+[type="text"],
+[tye="number"],
+[typer] {
+  padding: 8px;
 }

@@ -32,8 +32,23 @@
       <li>ETH</li>
       <li>USDT</li>
     </ul>
-    <form action="#" method="POST">
-      <label for="coin"> Coin: </label>
+    <form action="#" method="GET">
+      <label>
+        Coin:
+        <input type="text" name="coinName" placeholder="Coin" required />
+      </label>
+      <label>
+        Amount:
+        <input
+          type="num"
+          min="0"
+          name="coinQuantity"
+          placeholder="Amount"
+          required
+        />
+      </label>
+
+      <button type="submit">Buy</button>
     </form>
     <p>
       <span

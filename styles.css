@@ -12,7 +12,7 @@ body {
 }
 
 [type="text"],
-[tye="number"],
+[type="number"],
 [type="submit"] {
   padding: 8px;
 }

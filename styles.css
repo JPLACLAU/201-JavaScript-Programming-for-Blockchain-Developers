@@ -25,29 +25,6 @@ body {
   background-color: beige;
 }
 /* HEADER STYLES */
-.header-container {
-  display: flex;
-}
-.logo {
-  padding-left: 25px;
-  width: 30%;
-}
-
-.main-nav {
-  width: 70%;
-}
-
-.menu-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 30px;
-}
-
-.menu-item {
-  margin: 20px;
-  font-size: 16px;
-}
 
 button {
   border: none;
@@ -59,4 +36,41 @@ button {
 [type="number"],
 [type="submit"] {
   padding: 8px;
+}
+
+@media screen and (min-width: 400px) {
+  .header-container {
+    display: flex;
+  }
+
+  .menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+
+  .logo {
+    padding-left: 25px;
+    width: 30%;
+  }
+
+  .menu-item {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  .main-nav {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    padding-left: 75px;
+  }
+
+  .menu-list {
+    padding-right: 90px;
+  }
 }

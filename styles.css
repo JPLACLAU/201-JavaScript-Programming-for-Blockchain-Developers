@@ -13,20 +13,40 @@
   border: 2px dashed darkblue;
 }
 
-.d-block {
-  display: block;
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.d-inline {
-  display: inline;
-}
-
-.d-inline-block {
-  display: inline-block;
+.column {
+  width: 40%;
 }
 
 body {
   background-color: beige;
+}
+/* HEADER STYLES */
+.header-container {
+  display: flex;
+}
+.logo {
+  padding-left: 25px;
+  width: 30%;
+}
+
+.main-nav {
+  width: 70%;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.menu-item {
+  margin: 20px;
+  font-size: 16px;
 }
 
 button {
